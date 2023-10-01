@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #f3e4f3;
+}
+
+.select-menu{
+    width: 380px;
+    margin: 150px auto;
+
+}
+.select-menu .select-bar{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    background: #f7f4f4;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    cursor: pointer;
+    justify-content: space-evenly;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.1) ;
+}
+.select-bar i{
+    font-size: 25px;
+}
+.select-menu .options{
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.1) ;
+    background: #f7f4f4;
+}
+.options .option{
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #f7f4f4;
+
+}
+.options .option:hover{
+    background: #e4e0e0; 
+}
+.option i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+.option .option-text{
+    font-size: 25px;
+    color: #333;
+}
